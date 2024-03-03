@@ -45,3 +45,7 @@ docker logs eth-pos-devnet-beacon-chain-1 -f
 # Available Features:
 
 *The network launches with a (Validator Deposit Contract)[https://github.com/ethereum/consensus-specs/blob/dev/solidity_deposit_contract/deposit_contract.sol] deployed at address 0x4242424242424242424242424242424242424242. This can be used to onboard new validators into the network by depositing 32 ETH into the contract
+
+# Details
+
+*When adding the privateKey of the validator address in sk.json, don't forget to change the address that will receive the first Braces in the genesis file and change the address in docker-compose.yml.
