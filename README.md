@@ -27,19 +27,19 @@ Next, you can inspect the logs of the different services launched.
 To check geth, use:
 
 ```console
-docker logs eth-pos-devnet-geth-1 -f
+docker logs brace-network-pos-geth-1 -f
 ```
 
 To check validator details, use:
 
 ```console
-docker logs eth-pos-devnet-validator-1 -f
+docker logs brace-network-pos-validator-1 -f
 ```
 
 To check Beacon chain details, use:
 
 ```console
-docker logs eth-pos-devnet-beacon-chain-1 -f
+docker logs brace-network-pos-beacon-chain-1 -f
 ```
 
 # Available Features:
